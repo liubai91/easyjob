@@ -1,0 +1,13 @@
+<xsd:schema 
+	xmlns="http://www.lian-med.com/schema/lmtask" 
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	targetNamespace="http://www.lian-med.com/schema/lmtask" 
+	elementFormDefault="qualified" attributeFormDefault="unqualified">
+	
+	<xsd:element name="task">
+		<xsd:complexType>
+			<xsd:attribute name="base-package" type="xsd:string" use="required"></xsd:attribute>
+		</xsd:complexType>
+	</xsd:element>
+	
+</xsd:schema>
