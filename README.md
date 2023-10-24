@@ -10,7 +10,7 @@ easyjob是一款基于quartz简单的线上任务调度管理工具，支持通�
     <version>1.0.0</version>
 </dependency>
 ```
-
+由于该jar暂未发布到maven仓库中可以releases中下载编译的jar,手动添加到工程中。
 2. 配置管理页面
 ```
 @Configuration
